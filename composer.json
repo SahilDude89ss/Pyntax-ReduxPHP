@@ -1,0 +1,15 @@
+{
+    "name": "sahildude89ss/pyntax-redux-php",
+    "authors": [
+        {
+            "name": "Sahil Sharma",
+            "email": "SahilDude89ss@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pyntax\\": "src/Pyntax/"
+        }
+    }
+}
