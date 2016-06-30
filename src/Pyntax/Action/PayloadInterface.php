@@ -5,7 +5,7 @@ namespace Pyntax\Action;
  * Class PayloadInterface
  * @package Pyntax\Action
  */
-class PayloadInterface extends \stdClass
+interface PayloadInterface
 {
-
+    public function getData();
 }

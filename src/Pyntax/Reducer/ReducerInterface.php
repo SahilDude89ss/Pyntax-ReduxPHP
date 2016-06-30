@@ -3,6 +3,7 @@ namespace Pyntax\Reducer;
 
 use Pyntax\Action\ActionInterface;
 use Pyntax\Action\PayloadInterface;
+use Pyntax\State\StateInterface;
 
 /**
  * Interface ReducerInterface
@@ -10,11 +11,5 @@ use Pyntax\Action\PayloadInterface;
  */
 interface ReducerInterface
 {
-    /**
-     * @param ActionInterface $action
-     * @param PayloadInterface $payload
-     * 
-     * @return mixed
-     */
-    public function execute(ActionInterface $action, PayloadInterface $payload);
+    public function execute(StateInterface $stateInterface, ActionInterface $action);
 }
